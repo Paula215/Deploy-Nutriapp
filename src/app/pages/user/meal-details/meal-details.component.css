@@ -1,0 +1,93 @@
+.container{
+    padding-top: 180px;
+    background-color:  #FFFEEB !important;
+}
+
+.subcontainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:  #FFFEEB !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.fullmeal-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color:  #FFFEEB !important;
+}
+.meal-details-title h1, .meal-details-title h3, h4.meals-details-enjoy{
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.meal-details-title h1{
+    font-size: 40px;
+    line-height: 130%;
+}
+.meal-details-title h1 span{
+    font-size: 68px;
+}
+.meal-details-title h1::after{
+    display: flex;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    padding-bottom: -20px;
+}
+.meal-details-title h3, .meals-details-enjoy{
+    font-size: 20px;
+}
+.meal-details-description{
+    line-height: 130%;
+    letter-spacing: -2.2%;
+}
+.meal-details-description ul p{
+    padding-top: 10px;
+}
+.meal-image-container{
+    width: 25%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FFFEEB !important;
+}
+.meal-image-container img{
+    max-height: 600px;
+    width: auto;
+}
+.meal-details-container{
+    
+    padding-left: 80px;
+    background-color:  #FFFEEB !important;
+    flex-wrap: wrap;
+}
+.meal-details-nutritionalvalue{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:  #FFFEEB !important;
+    width: 100%;
+}
+.meal-details-nutritionalvalue-value{
+    padding: 8px 25px;
+}
+.meal-details-nutritionalvalue-value h6{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+}
+.meal-details-nutritionalvalue-value p{
+    font-size: 30px;
+}
+.meal-details-nutritionalvalue h6, .meal-details-nutritionalvalue-value h6{
+    font-family: inherit; margin: 0;
+}

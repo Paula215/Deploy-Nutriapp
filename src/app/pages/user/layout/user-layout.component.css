@@ -1,0 +1,18 @@
+html, body {
+    background-color: #FFFEEB !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+* {
+    background-color: #FFFEEB !important;
+}
+
+.main-bod{
+    display: flex;
+    box-shadow: 0 -2px 4px rgba(77, 77, 77, 0.108);
+
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFEEB !important;
+}
